@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRESIDENTIAL ELECTION</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+  <div class="logo">
+    <img src="images/logo.jpg" alt="Your Image">
+  </div>
+  <br> <hr>
+  <div class="voting-container">
+    <h1>PRESIDENTIAL ELECTION</h1>
+    <form id="voting-form">
+      <div class="position">
+        <h2>PRESIDENT</h2>
+        <div class="candidate candidate1">
+          <img src="images/luffy.jpg" alt="MONKEY D. LUFFY">
+          <div class="info-text">
+            <h3>Monkey D. Luffy</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="MONKEY D. LUFFY">
+            Vote for Candidate 1
+          </label>
+        </div>
+        <div class="candidate candidate2">
+          <img src="images/naruto.jpg" alt="UZUMAKI NARUTO">
+          <div class="info-text">
+            <h3 class="naruto">UZUMAKI NARUTO</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="UZUMAKI NARUTO">
+          Vote for Candidate 2
+          </label>
+         </div>
+         <div class="candidate candidatepres3">
+          <img src="images/ichigo.jpg" alt="President Candidate 3">
+          <div class="info-text">
+            <h3 class="kurosaki">KUROSAKI ICHIGO</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="KUROSAKI ICHIGO">
+          Vote for Candidate 3
+          </label>
+         </div>
+      <div>
+        <h2>VICE PRESIDENT</h2>
+        <div class="candidate candidatezoro">
+          <img src="images/zoro.jpg" alt="President Candidate 1">
+          <div class="info-text">
+            <h3 class="zoro">RORONOA ZORO</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="RORONOA ZORO">
+            Vote for Candidate 1
+          </label>
+        </div>
+        <div class="candidate candidate3">
+          <img src="images/sasuke.jpg" alt="President Candidate 1">
+          <div class="info-text">
+            <h3 class="SASUKE">UCHIHA SASUKE</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="UCHIHA SASUKE">
+            Vote for Candidate 2
+          </label>
+        </div>
+        <div class="candidate candidaterukia">
+          <img src="images/rukia.jpg" alt="President Candidate 2">
+          <div class="info-text">
+            <h3>KUCHIKI RUKIA</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="English Candidate 2">
+            Vote for Candidate 3
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <h2>SENATORS</h2>
+        <div class="candidateSEN candidateSEN1">
+          <img src="images/zoro.jpg" alt="President Candidate 1">
+          <div class="info-text">
+            <h3 class="zoro">RORONOA ZORO</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="English Candidate 1">
+            Vote for Candidate 1
+          </label>
+        </div>
+        <div class="candidateSEN candidateSEN2">
+          <img src="images/sasuke.jpg" alt="President Candidate 1">
+          <div class="info-text">
+            <h3 class="SASUKE">UCHIHA SASUKE</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="English Candidate 1">
+            Vote for Candidate 2
+          </label>
+        </div>
+        <div class="candidateSEN candidateSEN3">
+          <img src="images/rukia.jpg" alt="President Candidate 2">
+          <div class="info-text">
+            <h3>KUCHIKI RUKIA</h3>
+          </div>
+          <label>
+            <input type="checkbox" name="option" value="English Candidate 2">
+            Vote for Candidate 3
+          </label>
+        </div>
+      </div>
+    
+      <button type="submit">Vote</button>
+    </form>
+    <div id="results">
+      <h2>Results:</h2>
+      <ul id="votes-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

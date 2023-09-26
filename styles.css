@@ -1,0 +1,226 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(30deg, #e984ba, #4155ef);
+}
+
+
+.voting-container {
+  margin-top: 250px;
+  max-width: auto;
+  align-self: center;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(105, 106, 46, 0.8);
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  position: absolute;
+  top: 10px;
+ 
+  background-color: #fff;
+  align-self: center;
+}
+
+.logo img {
+  max-width: 500px;
+  display: block;
+  height: 200px;
+  text-align: center;
+  align-self: center;
+ 
+}
+
+
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #7d9b4a;
+}
+
+
+.position {
+  margin-bottom: 40px;
+}
+
+.candidate {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 5px solid rgb(76, 151, 217);
+}
+
+
+
+.candidate img {
+  border-radius: 40%;
+}
+
+.candidate1 {
+  background-color: #cdb3b3;
+  transition: background-color 0.3 ease;
+}
+
+.candidate2 {
+  background-color: #e67824
+}
+
+.candidatepres3 {
+  background-color: #575c71;
+}
+.candidaterukia {
+  background-color: #575c71;
+}
+
+.kurosaki {
+ color: #cd7f2c;
+}
+
+.naruto {
+  color: rgb(20, 9, 7);
+}
+
+.SASUKE {
+ color:rgb(79, 27, 183);
+}
+
+
+.candidate3 {
+  background-color: #e67824;
+}
+
+.candidate4 {
+  background-color: #4155ef;
+}
+
+.candidatezoro {
+  background-color: #cdb3b3;
+}
+
+.candidatezoro img {
+  max-width: 120px;
+  border: 5px solid green;
+  border-radius: 40%;
+}
+
+.candidate:hover {
+  transform: scale(1.05);
+
+}
+
+.candidate1 img {
+  max-width: 120px;
+  border-radius: 40%;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+}
+.candidate2 img {
+  max-width: 120px;
+  height: 86.031px;
+  width: 120px;
+  border-radius: 40%;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+}
+
+.candidatepres3 img {
+  max-width: 120px;
+  height: 86.031px;
+  width: 120px;
+  border-radius: 40%;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+}
+
+
+.candidate3 img {
+  max-width: 120px;
+  height: 86.031px;
+  width: 120px;
+  border-radius: 40%;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+}
+
+.candidaterukia img {
+  max-width: 120px;
+  height: 86.031px;
+  width: 120px;
+  border-radius: 40%;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+}
+
+.candidateSEN {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 5px solid rgb(76, 151, 217);
+  background-color: #cd7f2c;
+}
+
+.candidateSEN img {
+ max-width: 120px;
+ height: 86.031px;
+ width: 120px;
+ border-radius: 40%;
+ border: 5px solid #f0f0f0;
+}
+
+.info-text {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #478cb9;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3 ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#results {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#votes-list {
+  list-style: none;
+  padding: 0;
+}
+
+#votes-list li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
